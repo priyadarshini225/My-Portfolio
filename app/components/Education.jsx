@@ -7,13 +7,13 @@ const Education = () => {
       <div className="mb-8">
         <h3 className="text-xl font-semibold">B.E. in Computer Science and Engineering</h3>
         <p className="text-md">Vasavi College of Engineering, Ibrahimbagh, Hyderabad</p>
-        <p className="text-sm text-gray-600 dark:text-gray-400">2024 – 2027 | CGPA: <span className="font-semibold">8.78</span></p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">2024 – 2027 | CGPA: <span className="font-semibold">8.56</span></p>
       </div>
 
       <div>
         <h3 className="text-xl font-semibold">Diploma in Computer Science</h3>
         <p className="text-md">Kamala Nehru Polytechnic for Women, Gandhibhavan, Hyderabad</p>
-        <p className="text-sm text-gray-600 dark:text-gray-400">2021 – 2024 | CGPA: <span className="font-semibold">9.87</span></p>
+        <p className="text-sm text-gray-600 dark:text-gray-400">2021 – 2024 | CGPA: <span className="font-semibold">9.77</span></p>
       </div>
     </section>
   )

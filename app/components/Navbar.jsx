@@ -42,10 +42,6 @@ const Navbar = () => {
 
   return (
     <>
-      <div className='fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%]'>
-        <Image src={assets.header_bg_color} alt="Header Background" className='w-full' />
-      </div>
-
       <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex items-center justify-between z-50 transition duration-300 
         ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-gray-900 dark:bg-opacity-50" : ""}`}>
 
@@ -56,7 +52,7 @@ const Navbar = () => {
         <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-10 py-3 bg-white dark:bg-gray-800 dark:text-white shadow-[0_4px_20px_rgba(255,105,180,0.4)] bg-opacity-50 ml-10">
 
           <li><a href="#top" className="hover:underline">Home</a></li>
-          <li><a href="#about" className="hover:underline">About me</a></li>
+          <li><a href="#about" className="hover:underline">Who I am</a></li>
           <li><a href="#skills" className="hover:underline">Skills</a></li>
           <li><a href="#edu" className="hover:underline">Education</a></li>
           <li><a href="#projects" className="hover:underline">Projects</a></li>
@@ -87,7 +83,7 @@ const Navbar = () => {
               <Image src={assets.close_black} alt="cross" className="w-5 cursor-pointer dark:invert" />
             </div>
             <li><a onClick={closeMenu} href="#top" className='hover:underline'>Home</a></li>
-            <li><a onClick={closeMenu} href="#about" className="hover:underline">About me</a></li>
+            <li><a onClick={closeMenu} href="#about" className="hover:underline">Who I am</a></li>
             <li><a onClick={closeMenu} href="#skills" className="hover:underline">Skills</a></li>
             <li><a onClick={closeMenu} href="#edu" className="hover:underline">Education</a></li>
             <li><a onClick={closeMenu} href="#projects" className="hover:underline">Projects</a></li>

@@ -14,8 +14,8 @@ const Skills = () => {
           <h3 className="text-xl font-bold mb-2">Programming Languages</h3>
           <ul className="list-disc ml-6">
             <li>Java</li>
+            <li>Python</li>
             <li>C</li>
-            <li>JavaScript</li>
           </ul>
         </div>
 
@@ -25,8 +25,11 @@ const Skills = () => {
           <ul className="list-disc ml-6">
             <li>HTML</li>
             <li>CSS</li>
+            <li>JavaScript</li>
             <li>React.js</li>
-            <li>Next.js</li>
+            <li>Node.js</li>
+        
+            {/* <li>Next.js</li> */}
           </ul>
         </div>
 
@@ -54,6 +57,7 @@ const Skills = () => {
           <ul className="list-disc ml-6">
             <li>Data Structures & Algorithms (DSA)</li>
             <li>Object-Oriented Programming (OOPs)</li>
+            <li>Database Management Systems (DBMS)</li>
             <li>Operating Systems (OS)</li>
             <li>Computer Networks (CN)</li>
           </ul>
