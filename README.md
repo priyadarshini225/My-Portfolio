@@ -1,6 +1,10 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 💼 My Portfolio – Built with Next.js
 
-## Getting Started
+This is a personal portfolio website built using [Next.js](https://nextjs.org) and bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).. It showcases my projects, skills, and background in a modern and responsive design.
+
+---
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -19,6 +23,26 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+---
+
+🛠️ Features
+Built with Next.js 13+ App Router
+
+Optimized with next/font using the Geist font family by Vercel
+
+Responsive and fast
+
+Easy to deploy with Vercel
+
+---
+
+🌐 Live Demo
+🔗 [View My Portfolio](https://my-portfolio-five-mu-63.vercel.app/)
+
+Deployed on Vercel — the platform behind Next.js.
+
+---
 
 ## Learn More
 
